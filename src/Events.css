@@ -1,0 +1,151 @@
+.imageevent{
+    width: 100%;
+    background-image: url('../public/breadcrumb/0.breadcrumb-bg.jpg');
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.text-center a{
+    text-decoration: none;
+    
+  }
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .eventsslink{
+    text-decoration: none;
+  }
+  
+  /* //new api after data */
+  /* Ensure the grid container spans the full width and has some spacing */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px; /* Adjust spacing as needed */
+}
+
+.col-md-4, .col-sm-6 {
+  padding: 0 15px; /* Adjust spacing as needed */
+}
+
+/* Container for each grid item */
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* Full width of the column */
+  height: 300px; /* Fixed height for consistency */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure images cover the container without distortion */
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures images cover the container while maintaining aspect ratio */
+}
+
+/* Overlay styling */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Text inside the overlay */
+.overlay p {
+  margin: 0;
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+/* Ensure link styling does not affect layout */
+.eventsslink {
+  text-decoration: none; /* Remove underline from links */
+}
+
+
+
+
+
+
+/* Events.css */
+
+.container {
+  padding: 20px;
+}
+
+.event-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+
+
+}
+
+.event-image {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover; /* Ensures the image covers the area while maintaining its aspect ratio */
+}
+
+.event-details {
+  padding: 15px;
+}
+
+.event-title {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.event-details p {
+  margin: 5px 0;
+  /* background-color: white;
+  color: black; */
+}
+.event-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border: 1px solid #ddd; /* Optional: border for better visibility */
+  border-radius: 8px; /* Optional: rounded corners */
+  overflow: hidden; /* Prevent overflow */
+  transition: transform 0.2s; /* Optional: add a hover effect */
+  margin-left: 15px; /* Add space on the left side */
+}
+
+.event-card:hover {
+  transform: scale(1.02); /* Optional: slightly scale on hover */
+}
+
+.event-image {
+  width: 100%; /* Ensure the image takes full width of the card */
+  height: 200px; /* Set a fixed height for the image */
+  object-fit: cover; /* Maintain aspect ratio while covering the area */
+}
+
+.event-details {
+  padding: 16px; /* Optional: add padding to details */
+  flex-grow: 1; /* Allow details section to grow */
+}

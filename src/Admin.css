@@ -1,0 +1,90 @@
+/* Sidebar Styles */
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 16px;
+  transition: transform 0.3s ease;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Main Header Styles */
+.mainn {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adminicon {
+  height: 30px;
+  border-radius: 100px;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100px;
+    padding-top: 10px;
+    transform: translateX(-100%);
+  }
+
+  .sidebar a {
+    font-size: 16px;
+    padding: 4px 8px;
+  }
+
+  .mainn {
+    margin-left: 0;
+  }
+
+  .adminicon {
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sidebar {
+    width: 100%;
+    transform: translateX(-100%); /* Hide sidebar initially */
+  }
+
+  .mainn {
+    margin-left: 0;
+    /* padding: 0px 5px; */
+  }
+
+  .adminicon {
+    height: 25px;
+  }
+  .admin-name{
+ font-size: 10px;
+ margin-left: 0.3rem;
+  }
+}

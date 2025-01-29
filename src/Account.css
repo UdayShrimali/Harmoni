@@ -1,0 +1,24 @@
+.acdetail{
+  height: 100vh;
+  color: white;
+  background-color: rgb(42, 10, 116);
+
+}
+.acdetail2{
+  padding: 10px;
+  background-color: rgb(95, 46, 211);
+}
+.he2icon2{
+  /* height: 100px; */
+  /* size: 100px; */
+  
+  text-align: center !important;
+  /* width: 20px; */
+}
+.mt{
+  align-items: flex-end;
+  
+}
+.a{
+  text-decoration: none !important;
+}

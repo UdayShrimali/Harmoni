@@ -1,0 +1,35 @@
+.contactimg{
+    width: 100%;
+    box-sizing: cover;
+}
+.inline::after{
+  content: "|";
+  margin-left: 50px;
+  color: white;
+  font-weight: bold;
+  
+  }
+/* <div className="container">
+<div className="card text-bg-dark">
+  <img src="event/homemain.jpg" className="card-img" alt="Event Image"/>
+  <div className="card-img-overlay">
+    <h1 className="card-title col-12 col-md-6 mt-5">
+      <span className="text-warning">One Stop Event Planner</span>
+    </h1>
+    <h4 className="card-text font-weight-bold opacity-50 col-12 col-md-6 mt-4 mb-5">
+      Delivering great food for more than 18 years!
+    </h4>
+    <p className='opacity-50 font-weight-bold'>
+      Every Event Should Be Perfect
+    </p>
+    <div className="card-text btn-container">
+      <input className='inh text-white bg-dark border-0 p-1 ps-3' placeholder='Your Email Address' />
+      <button className="btn text-white bg-danger">GET STARTED</button>
+    </div>
+    <p className='mt-3'>
+      <img src='/people.png' alt="People" className='me-2'/>
+      1,600 people requested access visit in the last 24 hours
+    </p>
+  </div>
+</div>
+</div> */

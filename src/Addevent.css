@@ -1,0 +1,72 @@
+.userlist {
+  margin-left: 160px;
+  /* padding: 20px; */
+}
+
+.colorwhite {
+  background-color: white;
+  /* padding: 20px; */
+}
+
+.addevent {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.addevent h3 {
+  margin-bottom: 20px;
+}
+
+.eventforms .form-control {
+  margin-bottom: 10px;
+}
+
+.eventforms .form-select {
+  margin-bottom: 10px;
+}
+
+.eventforms button {
+  margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .userlist {
+    margin-left: 100px;
+    /* padding: 10px; */
+  }
+
+  .addevent {
+    padding: 10px;
+  }
+
+  .eventforms .form-control, .eventforms .form-select {
+    margin-bottom: 8px;
+  }
+
+  .eventforms button {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .userlist {
+    margin-left: 0;
+    padding: 10px 5px;
+  }
+
+  .addevent {
+    padding: 10px 5px;
+  }
+
+  .eventforms .form-control, .eventforms .form-select {
+    margin-bottom: 6px;
+  }
+
+  .eventforms button {
+    margin-top: 6px;
+  }
+}

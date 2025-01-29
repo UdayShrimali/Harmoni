@@ -1,0 +1,92 @@
+.userlist {
+  margin-left: 160px;
+
+}
+
+
+.alluser {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.alluser th, .alluser td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.alluser th {
+  background-color: black;
+  color: white;
+}
+
+.icon img {
+  height: 30px;
+  border-radius: 100px;
+}
+
+.btn-unblock {
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-unblock:hover {
+  background-color: darkgreen;
+}
+/* Remove table row lines */
+table.alluser {
+  border-collapse: collapse;
+}
+
+table.alluser th, table.alluser td {
+  border: none; /* Remove borders from table cells */
+}
+
+table.alluser thead th {
+  border-bottom: 1px solid #ddd; /* Optional: Keep a bottom border for the header row */
+}
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .userlist {
+    margin-left: 100px; 
+    /* padding: 10px; */
+  }
+
+  .alluser th, .alluser td {
+    padding: 5px;
+  }
+
+  .icon img {
+    height: 25px;
+  }
+
+  .btn-unblock {
+    padding: 3px 7px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .userlist {
+    margin-left: 0;
+    padding: 10px 5px;
+  }
+
+  .alluser th, .alluser td {
+    padding: 3px;
+    font-size: 12px;
+  }
+
+  .icon img {
+    height: 20px;
+  }
+
+  .btn-unblock {
+    padding: 2px 5px;
+  }
+}

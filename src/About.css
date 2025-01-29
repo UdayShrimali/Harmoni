@@ -1,0 +1,50 @@
+.row{
+    --bs-gutter-x: 0;
+}
+.hero{
+    width: 100%;
+    background-image: url('../public/breadcrumb/0.breadcrumb-bg.jpg');
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text h2{
+    color: rgb(255, 217, 0);
+
+}
+.text span{
+    color: white;
+}
+.text ul a{
+    text-decoration: none;
+    color: white;
+
+}
+.text ul {
+    list-style: none;
+
+    
+}
+.info{
+    width: 100%;
+    background-color: rgb(30, 0, 85);
+}
+.inline::after{
+content: "|";
+margin-left: 50px;
+color: white;
+font-weight: bold;
+
+}

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .achive1 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: auto;
+  }
+  
+  .contactform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contactform form {
+    width: 100%;
+  }
+  
+  .contactform h2 {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .achive1 {
+      margin-bottom: 20px;
+    }
+  
+    .contactform {
+      padding: 20px;
+    }
+  
+    .contactform h2 {
+      margin-bottom: 10px;
+    }
+  
+    .contactform .form-control {
+      margin-bottom: 15px;
+    }
+  
+    .form-check {
+      margin-bottom: 15px;
+    }
+  
+    .form-check-label {
+      padding-left: 10px;
+    }
+  
+    .mx-5 {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .background-image {
+      height: 200px;
+    }
+  
+    .overlay-image {
+      width: 70%;
+    }
+  
+    .contactform {
+      padding: 15px;
+    }
+  
+    .contactform h2 {
+      font-size: 1.5rem;
+    }
+  
+    .form-check-label {
+      font-size: 0.9rem;
+    }
+  
+    .text-start, .text-end {
+      font-size: 0.8rem;
+    }
+  
+    .form-check-label {
+      font-size: 0.9rem;
+    }
+  
+    .text-start, .text-end {
+      font-size: 0.8rem;
+    }
+  }
+  

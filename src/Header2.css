@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-item{
+  margin-left: 20px;
+  font-size: 20px;
+}
+#dropdown-basic{
+background: linear-gradient(to right, #c48a7b, #d8ab89, #dcdfe4);
+
+  margin-top: 5px;
+  height: 35px;
+}
+
+.text-warning{
+  font-size: 50px;
+}
+/* Add custom styles for Header component */
+
+.card-title span {
+  font-size: 2rem; /* Adjust font size as needed */
+}
+
+.inh {
+  width: 200px; /* Adjust input width as needed */
+}
+/* .row{
+  -bs-gutter-x: 0;
+} */
+.adminicon {
+  height: 30px;
+  border-radius: 100px;
+}
+.he2icon{
+  text-align: end;
+  /* margin-left: 100px; */
+}
+/* Header2.css */
+
+/* Container for the icon and the dropdown items */
+.he2icon {
+  position: relative;
+}
+
+/* The dropdown menu that will appear on hover */
+.dropdown-menu {
+  display: none; /* Hide by default */
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #343a40; /* Bootstrap dark color */
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Show the dropdown menu on hover */
+.he2icon:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style for the list items in the dropdown menu */
+.dropdown-menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #495057;
+}
+
+/* Optional: to hide the dropdown menu after 10 seconds */
+.dropdown-menu.show {
+  display: block;
+  animation: showMenu 10s forwards;
+}
+
+@keyframes showMenu {
+  0% {
+    display: block;
+  }
+  100% {
+    display: none;
+  }
+}

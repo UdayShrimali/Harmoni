@@ -1,0 +1,36 @@
+/* .contact-messages-container {
+    padding: 20px;
+  } */
+  
+  .messages-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .messages-table th,
+  .messages-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .messages-header {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .messages-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .messages-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .messages-table tr:hover {
+    background-color: #ddd;
+  }
+.contact-messages-container{
+    margin-left: 150px;
+}  

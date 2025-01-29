@@ -1,0 +1,51 @@
+.book img{
+    width: 100%;
+
+height: 70vh; 
+}
+.bookbtn{
+    float: left;
+}
+.card-body {
+    float: left;
+}
+.booking{
+    width: 100%;
+}
+
+/* Book.css */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 300px; /* Ensure a consistent height for images */
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    margin: 10px 0;
+  }
+  
+  /* Optionally, ensure padding and margin are consistent */
+  .book {
+    padding: 20px;
+  }
+.category {
+  align-self: center; /* Vertically center the category text */
+  margin-left: auto; /* Push it to the right side */
+}
+  

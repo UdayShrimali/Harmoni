@@ -1,0 +1,58 @@
+.footer{
+    background-image: linear-gradient(to right, #030567 0%, #400291 100%);
+}
+.linkss ul {
+    list-style: none;
+}
+.linkss ul li a{
+    text-decoration: none;
+}
+.linkss h5{
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.terms ul {
+    list-style: none;
+}
+.terms ul li a{
+    text-decoration: none;
+}
+.terms h5{
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.get ul {
+    list-style: none;
+}
+.get ul li a{
+    text-decoration: none;
+}
+.get h5{
+    font-size: 15px;
+    padding-left: 30px;
+}
+.copy{
+    padding-top: 70px;
+}
+.douwant h1{
+    background-image: linear-gradient(45deg, #9c5cf0, #af4261);
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-weight: 600;
+}
+.early button{
+    margin-top: 50px;
+    border-radius: 0px;
+    margin-bottom: 70px;
+}
+.footerimg{
+    width: 10%;
+
+    /* text-align: center; */
+}
+.footertext{
+    font-size: 20px;
+}
